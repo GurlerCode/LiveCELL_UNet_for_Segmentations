@@ -19,11 +19,11 @@ The LiveCell Imaging dataset is a collection of microscopy images designed for t
 
 ### Dataset Structure
 The dataset is organized into the following key components:
-Train: 
-- Images: This folder contains 3 raw microscopy images captured during live cell imaging experiments. Each image corresponds to a specific time frame and captures the intricate details of cell structures, cell divisions, and interactions.
-- Labels: The label folder contains corresponding ground truth segmentations for the images. These label images define the regions of interest within the microscopy images, indicating cell boundaries, nuclei, and other cellular components.
-- Borders: The border folder contains border information that aids in cell segmentation. Borders provide additional information about cell boundaries, helping the segmentation model accurately distinguish between adjacent cells.
-Test:
+* Train: 
+..* Images: This folder contains 3 raw microscopy images captured during live cell imaging experiments. Each image corresponds to a specific time frame and captures the intricate details of cell structures, cell divisions, and interactions.
+..* Labels: The label folder contains corresponding ground truth segmentations for the images. These label images define the regions of interest within the microscopy images, indicating cell boundaries, nuclei, and other cellular components.
+..* Borders: The border folder contains border information that aids in cell segmentation. Borders provide additional information about cell boundaries, helping the segmentation model accurately distinguish between adjacent cells.
+* Test:
 The test folder contains a separate set of microscopy images specifically reserved for testing the trained segmentation model. These images are not used during training or validation, ensuring an unbiased evaluation of the model's performance.
 
 ### Dataset Format
