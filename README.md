@@ -1,5 +1,5 @@
-# UNet Segmentation for LiveCELL Imaging
-## IS THIS CELL ALIVE? U-Net Segmentation for LiveCell Imaging
+# IS THIS CELL ALIVE? 
+## U-Net Segmentation for LiveCell Imaging
 This is the U-Net Segmentation for LiveCell Imaging project! This repository contains a comprehensive implementation of the U-Net architecture for semantic segmentation of live cell microscopy images. The U-Net model is widely used for image segmentation tasks and particularly effectively segment biomedical images with complex structures.
 
 ## Introduction
