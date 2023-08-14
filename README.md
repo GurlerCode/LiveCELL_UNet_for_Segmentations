@@ -7,23 +7,23 @@ This project focuses on utilizing the U-Net architecture to perform semantic seg
 This study was conducted as a final exam for the course Python for Engineering Data Analysis at the Technical University of Munich.
 
 ## Key Features
-**Data Preparation:** Load, preprocess, and augment training and validation data. Normalize and reshape the images and labels for input to the U-Net model.
-**U-Net Model Architecture:** Implement the U-Net architecture with encoder and decoder components. Configure loss functions, optimizers, and learning rate schedulers.
-**Training and Validation:** Train the U-Net model using mini-batch gradient descent. Monitor training progress and evaluate the model on validation data to prevent overfitting.
-**Testing and Evaluation:** Load the trained model, preprocess test data, and perform segmentation on test images. Evaluate segmentation performance using various metrics.
-**Visualization:** Visualize input images, ground truth labels, predicted masks, and intermediate results using plotting functions.
-**Results and Discussion:** Analyze and discuss the performance of the U-Net model, highlighting its accuracy and potential applications.
-LiveCell Imaging Dataset
+-**Data Preparation:** Load, preprocess, and augment training and validation data. Normalize and reshape the images and labels for input to the U-Net model.
+-**U-Net Model Architecture:** Implement the U-Net architecture with encoder and decoder components. Configure loss functions, optimizers, and learning rate schedulers.
+-**Training and Validation:** Train the U-Net model using mini-batch gradient descent. Monitor training progress and evaluate the model on validation data to prevent overfitting.
+-**Testing and Evaluation:** Load the trained model, preprocess test data, and perform segmentation on test images. Evaluate segmentation performance using various metrics.
+-**Visualization:** Visualize input images, ground truth labels, predicted masks, and intermediate results using plotting functions.
+-**Results and Discussion:** Analyze and discuss the performance of the U-Net model, highlighting its accuracy and potential applications.
+
+## LiveCell Imaging Dataset
 The LiveCell Imaging dataset is a collection of microscopy images designed for the purpose of cell segmentation and analysis. This dataset provides a diverse range of images capturing live cell behavior and structures, enabling researchers to study and analyze cellular dynamics with precision.
 
-## Dataset Structure
+### Dataset Structure
 The dataset is organized into the following key components:
-1. Train: 
+Train: 
 - Images: This folder contains 3 raw microscopy images captured during live cell imaging experiments. Each image corresponds to a specific time frame and captures the intricate details of cell structures, cell divisions, and interactions.
 - Labels: The label folder contains corresponding ground truth segmentations for the images. These label images define the regions of interest within the microscopy images, indicating cell boundaries, nuclei, and other cellular components.
 - Borders: The border folder contains border information that aids in cell segmentation. Borders provide additional information about cell boundaries, helping the segmentation model accurately distinguish between adjacent cells.
-
-2. Test:
+Test:
 The test folder contains a separate set of microscopy images specifically reserved for testing the trained segmentation model. These images are not used during training or validation, ensuring an unbiased evaluation of the model's performance.
 
 ### Dataset Format
