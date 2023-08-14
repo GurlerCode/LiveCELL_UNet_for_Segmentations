@@ -37,13 +37,22 @@ Before training the U-Net model, the dataset undergoes several preprocessing ste
 
 ## The Repository
 In the repository, scientific Python programs have been implemented to complete the project steps.
+
 **It consists of the following parts:**
+
 /figures: This folder is the location where various plots and visualizations are saved. It contains images that visualize different stages of the data preprocessing, model training, testing, and other analysis steps. 
+
 /model: This folder contains Python modules related to the neural network model used for image segmentation. It includes files defining the U-Net architecture, loss functions, training procedures, and prediction functions.
+
 /plots: This is where contains Python scripts are responsible for creating various plots and visualizations used throughout the project. It includes functions to visualize images, labels, predictions, and other metrics.
+
 /preprocess: This folder contains preprocessing-related modules. These include functions to load, preprocess, augment, and transform image and label data before training the model.
-/unet_data: This folder is the main directory for storing the dataset and related files. It includes subdirectories for training, testing, and validation data, as well as augmented data. The predicted_masks subfolder contains the predicted segmentations obtained from the trained model.
+
+/unet_data: This folder is the main directory for storing the dataset and related files. It includes subdirectories for training, testing, and validation data, as well as augmented data. The predicted_masks subfolder contains the predicted 
+segmentations obtained from the trained model.
+
 /main.ipynb: This is the main Jupyter Notebook file where the entire pipeline of loading the data, preprocessing, building the U-Net model, training, testing, and evaluating the model is executed and documented.
+
 /unet_model.pth: This file is the saved model weights of the trained U-Net model. The .pth extension indicates that it's a PyTorch model checkpoint file.
 
 ## Conclusion
