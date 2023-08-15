@@ -4,7 +4,6 @@ This is the U-Net Segmentation for LiveCell Imaging project! This repository con
 
 ## Introduction
 This project focuses on utilizing the U-Net architecture to perform semantic segmentation on microscopy images, specifically targeting live cell imaging data. The goal is to accurately segment different cell structures within these images, allowing for precise analysis and understanding of cellular behavior. The pipeline includes data preprocessing, augmentation, model training, testing, and evaluation.
-This study was conducted as a final exam for the course Python for Engineering Data Analysis at the Technical University of Munich.
 
 ## Key Features
 - **Data Preparation:** Load, preprocess, and augment training and validation data. Normalize and reshape the images and labels for input to the U-Net model.
